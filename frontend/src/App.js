@@ -6,7 +6,11 @@ function App() {
   return (
     <div className="App">
       <div className="menu-icon-container"><MenuComp/></div>
-      <div className="page-outer-container"><Page /></div>
+      
+      <div className="page-outer-container">
+        
+        <Page />
+      </div>
 
     </div>
   );

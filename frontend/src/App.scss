@@ -9,3 +9,54 @@
 body {
 	background-color: rgb(56, 56, 212);
 }
+
+.App {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-page-container {
+	display: flex;
+	flex-direction: column;
+	
+	h1 {
+		margin: 20px 0 20px 20px;
+	}
+
+}
+
+.page-outer-container {
+	width: 250px;
+	height: 700px;
+	border: black solid 1px;
+	margin: 50px 0;
+}
+
+.page-inner-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*border: black solid 1px;*/
+}
+
+.rectangle {
+	width: 200px;
+	height: 210px;
+	background-color: white;
+}
+
+.menu-icon-container {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+
+
+
+
+

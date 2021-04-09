@@ -10,4 +10,70 @@
 body {
   background-color: #3838d4;
 }
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title-page-container h1 {
+  margin: 20px 0 20px 20px;
+}
+
+.page-outer-container {
+  width: 250px;
+  height: 700px;
+  border: black solid 1px;
+  margin: 50px 0;
+}
+
+.page-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*border: black solid 1px;*/
+}
+
+.rectangle {
+  width: 200px;
+  height: 210px;
+  background-color: white;
+}
+
+.menu-icon-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
 /*# sourceMappingURL=App.css.map */

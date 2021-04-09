@@ -19,8 +19,9 @@ const Page = ()=> {
 					Ez volt, el sem tudtam képzelni, mi okból, kedvenc s állandó tanulmánya - s hogy idő folytán ez lett
 					nekem magamnak is, a példa és szokás egyszerű, de hatékony befolyásának kell tulajdonítani...
 				</p>
-				<h3><a href="#">READ MORE</a></h3>
+				
 			</div>
+			<h3><a href="#">READ MORE</a></h3>
 		</div>
 	)
 }

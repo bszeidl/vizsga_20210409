@@ -6,6 +6,8 @@
 	box-sizing: 0
 }
 
+$text-color: hsl(51, 91%, 77%);
+
 body {
 	background-color: rgb(56, 56, 212);
 }
@@ -21,17 +23,23 @@ body {
 .title-page-container {
 	display: flex;
 	flex-direction: column;
+	color: $text-color;
 	
-	h1 {
+	h1, h3 {
 		margin: 20px 0 20px 20px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $text-color;
 	}
 
 }
 
 .page-outer-container {
 	width: 250px;
-	height: 700px;
-	border: black solid 1px;
+	height: 900px;
+	border: white solid 1px;
 	margin: 50px 0;
 }
 
@@ -41,6 +49,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	/*border: black solid 1px;*/
+
+	p {
+		margin: 20px 20px 20px 20px;
+	}
 }
 
 .rectangle {

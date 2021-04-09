@@ -35,16 +35,22 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #faea8f;
 }
 
-.title-page-container h1 {
+.title-page-container h1, .title-page-container h3 {
   margin: 20px 0 20px 20px;
+}
+
+.title-page-container a {
+  text-decoration: none;
+  color: #faea8f;
 }
 
 .page-outer-container {
   width: 250px;
-  height: 700px;
-  border: black solid 1px;
+  height: 900px;
+  border: white solid 1px;
   margin: 50px 0;
 }
 
@@ -63,6 +69,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   /*border: black solid 1px;*/
+}
+
+.page-inner-container p {
+  margin: 20px 20px 20px 20px;
 }
 
 .rectangle {

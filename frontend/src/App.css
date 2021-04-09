@@ -86,4 +86,56 @@ body {
   top: 15px;
   right: 15px;
 }
+
+@media screen and (min-width: 768px) {
+  .App {
+    margin: 60px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .rectangle {
+    width: 800px;
+    height: 750px;
+  }
+  .page-outer-container {
+    width: 1700px;
+    height: 900px;
+    border: white solid 1px;
+    margin: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-inner-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /*border: black solid 1px;*/
+  }
+  p {
+    width: 800px;
+    height: 300px;
+    line-height: 3em;
+    /*border: black solid 1px;*/
+  }
+  .menu-icon-container {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
 /*# sourceMappingURL=App.css.map */
